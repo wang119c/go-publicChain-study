@@ -6,7 +6,7 @@ demo:https://andersbrownworth.com/blockchain/
 2. part2-Basic-Prototype  创建区块链
 3. part3-Basic-Prototype  创建区块链
 4. part4-Basic-Prototype  创建区块链
-5. part5-Basic-Prototype  增加工作证明
+5. part5-proof-of-work    增加工作证明
 
 
 

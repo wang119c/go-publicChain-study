@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"go-publicChain-study/part4-Basic-Prototype/BLC"
+	"go-publicChain-study/part5-proof-of-work/BLC"
 )
 
 func main() {
