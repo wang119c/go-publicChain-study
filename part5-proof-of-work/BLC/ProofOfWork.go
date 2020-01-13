@@ -6,6 +6,10 @@ type ProofOfWork struct {
 
 func (proofOfWork *ProofOfWork) Run() ([]byte, int64) {
 
+	
+
+
+
 	return nil, 0
 }
 
