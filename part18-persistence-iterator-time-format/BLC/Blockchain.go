@@ -72,11 +72,6 @@ func (blc *Blockchain) Printchain() {
 		if big.NewInt(0).Cmp(&hashInt) == 0 {
 			break
 		}
-
-
-
-
-
 	}
 }
 
