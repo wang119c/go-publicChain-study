@@ -5,6 +5,7 @@ import (
 	"github.com/boltdb/bolt"
 	"log"
 	"math/big"
+	"os"
 	"time"
 )
 
@@ -76,8 +77,34 @@ func (blc *Blockchain) AddBlockToBlockchain(data string) {
 	}
 }
 
+//判断创世区块是不是存在
+func dbExists() bool {
+	if _, err := os.Stat(dbName); os.IsNotExist(err) {
+		return false
+	}
+	return true
+}
+
 //1.创建带创世区块的区块链
 func CreateBlockchainWithGenesisBlock() *Blockchain {
+
+	if dbExists() {
+		fmt.Println("创世区块已经存在")
+
+		db, err := bolt.Open(dbName, 0600, nil)
+		if err != nil {
+			log.Fatal(err)
+		}
+
+		var blockchain *Blockchain
+		err = db.View(func(tx *bolt.Tx) error {
+			b := tx.Bucket([]byte(blockTableName))
+			hash := b.Get([]byte("l"))
+			blockchain = &Blockchain{hash, db}
+			return nil
+		})
+		return blockchain
+	}
 
 	//创建或打开数据库
 	db, err := bolt.Open(dbName, 0600, nil)
