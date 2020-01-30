@@ -15,9 +15,8 @@ func main() {
 	//fmt.Printf("%d\n", *flagInt)
 	//fmt.Printf("%v\n", *flagBool)
 
-
 	args := os.Args
-	fmt.Printf("%v\n",args)
-	fmt.Printf("%v\n",args[1])
+	fmt.Printf("%v\n", args)
+	fmt.Printf("%v\n", args[1])
 
 }
