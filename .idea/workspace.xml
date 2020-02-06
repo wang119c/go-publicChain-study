@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0e086e8-cc71-4d19-8468-51e4ee1a1951" name="Default Changelist" comment="文件分离-优化">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="c0e086e8-cc71-4d19-8468-51e4ee1a1951" name="Default Changelist" comment="文件分离-优化" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,14 +24,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="20499" />
+          <entry key="go" value="20547" />
           <entry key="md" value="353" />
           <entry key="txt" value="89" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="20499" />
+          <entry key="Go" value="20547" />
           <entry key="Markdown" value="346" />
           <entry key="PLAIN_TEXT" value="96" />
         </counts>
@@ -41,7 +39,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="db" value="6" />
-          <entry key="go" value="369" />
+          <entry key="go" value="376" />
           <entry key="js" value="1" />
           <entry key="md" value="9" />
           <entry key="s" value="1" />
@@ -49,7 +47,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="369" />
+          <entry key="Go" value="376" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="8" />
           <entry key="PLAIN_TEXT" value="7" />
@@ -67,34 +65,16 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part58-wallets-signature/BLC/Transaction.go">
+        <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/CLI.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="104">
-              <caret line="153" column="37" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="37" />
+            <state relative-caret-position="122">
+              <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part58-wallets-signature/main.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="10" selection-start-line="8" selection-start-column="10" selection-end-line="8" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part58-wallets-signature/BLC/CLI.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="172">
-              <caret line="128" column="13" selection-start-line="128" selection-start-column="13" selection-end-line="128" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/part58-wallets-signature/BLC/CLI_send.go">
+        <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/CLI_send.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
               <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
@@ -103,10 +83,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/part58-wallets-signature/BLC/Blockchain.go">
+        <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/Blockchain.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="277" selection-start-line="277" selection-end-line="277" />
+            <state relative-caret-position="225">
+              <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -141,8 +121,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/part38-new-transaction/main.go" />
-        <option value="$PROJECT_DIR$/part38-new-transaction/BLC/Blockchain.go" />
         <option value="$PROJECT_DIR$/part38-new-transaction/BLC/CLI.go" />
         <option value="$PROJECT_DIR$/part39-new-transaction/main.go" />
         <option value="$PROJECT_DIR$/part39-new-transaction/BLC/UTXO.go" />
@@ -192,6 +170,8 @@
         <option value="$PROJECT_DIR$/part57-wallets-signature/main.go" />
         <option value="$PROJECT_DIR$/part58-wallets-signature/BLC/Transaction.go" />
         <option value="$PROJECT_DIR$/part58-wallets-signature/BLC/Blockchain.go" />
+        <option value="$PROJECT_DIR$/part60-Transaction-Reward/main.go" />
+        <option value="$PROJECT_DIR$/part60-Transaction-Reward/BLC/Blockchain.go" />
       </list>
     </option>
   </component>
@@ -236,7 +216,13 @@
             <path>
               <item name="go-publicChain-study" type="b2602c69:ProjectViewProjectNode" />
               <item name="go-publicChain-study" type="462c0819:PsiDirectoryNode" />
-              <item name="part58-wallets-signature" type="462c0819:PsiDirectoryNode" />
+              <item name="part60-Transaction-Reward" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="go-publicChain-study" type="b2602c69:ProjectViewProjectNode" />
+              <item name="go-publicChain-study" type="462c0819:PsiDirectoryNode" />
+              <item name="part60-Transaction-Reward" type="462c0819:PsiDirectoryNode" />
+              <item name="BLC" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -293,8 +279,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25121164" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21163167" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -306,7 +293,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.24433658" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.42718446" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.47087377" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.2641357" side_tool="true" weight="0.42718446" />
       <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.48220065" />
       <window_info anchor="bottom" id="Messages" order="12" />
@@ -361,34 +348,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="判断地址是否合法有效" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/part41-new-transaction-send/BLC/CLI.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="104" column="14" selection-start-line="104" selection-start-column="14" selection-end-line="104" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part41-new-transaction-send/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="55" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part41-new-transaction-send/BLC/Transaction.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="48" column="48" selection-start-line="48" selection-start-column="48" selection-end-line="48" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/part41-new-transaction-send/BLC/Blockchain.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="290" selection-start-line="290" selection-end-line="290" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/part42-new-transaction-multi-transcation/main.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -729,6 +688,37 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="277" selection-start-line="277" selection-end-line="277" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+          <folding>
+            <element signature="e#14#78#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/CLI.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/CLI_send.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/part60-Transaction-Reward/BLC/Blockchain.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="230" column="8" selection-start-line="230" selection-start-column="8" selection-end-line="230" selection-end-column="8" />
         </state>
       </provider>
     </entry>
